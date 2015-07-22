@@ -1,6 +1,6 @@
 var miel = require('miel')
 
-document.querySelector('textarea').value = "var add2 = (num) => {-}\n\treturn num + 2;\n\naddSum(2,2);";
+document.querySelector('textarea').value = "var add2 = (num) => {-}\n\treturn num + 2;\n\nadd2(2);";
 var button = document.querySelector('button');
 
 button.onclick = function(e) {
