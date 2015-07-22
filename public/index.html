@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Miel REPL</title>
+    <style>
+      body {
+        width: 90%;
+        margin: 0 auto;
+      }
+    button {
+        line-height: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
+      textarea {
+        width: 45%;
+        float: left;
+        min-height: 500px; 
+        font-size: 1.1em;
+        padding: 5px;
+      }
+      pre {
+        background-color: #eee;
+        width: 45%;
+        float: right;
+        min-height: 500px;
+        border: 1px solid;
+        margin: 0;
+        font-size: 1.1em;
+        padding: 5px;
+        -moz-tab-size: 4;
+        -o-tab-size:   4;
+        tab-size:      4;
+      }
+      span {
+        background-color: #eee; 
+        padding: 2px;
+      }
+      footer {
+        clear: both
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="app">
+
+      <h1>Miel REPL</h1>
+      <p>Use <span>{-}</span> to wrap code based on indentation. Read about Miel syntax at
+        <a href='http://github.com/collardea/miel'>http://github.com/collardeau/miel</a>
+      </p>
+      <button>Compile -></button>
+      <textarea></textarea>
+        <pre /></pre>
+      <footer>Please file bug reports at:
+        <a href="http://github.com/collardeau/miel/issues">http://github.com/collardeau/miel/issues</a>.
+      </footer>
+    
+    </div>
+
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
+
+
